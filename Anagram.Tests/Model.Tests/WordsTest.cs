@@ -44,8 +44,8 @@ namespace Anagram.Tests
     public void IsAnagram_ComparesTwoArrays_True()
     {
       //Arrange
-      char[] word1 = {'a','b','c'};
-      char[] word2 = {'a','b','c'};
+      char[] word1 = {'d','g','o'};
+      char[] word2 = {'d','g','o'};
 
       //Act
       bool result = Anagram.IsAnagram(word1, word2);

@@ -25,9 +25,9 @@ namespace Anagram
       return wordArray;
     }
 
-    public static bool IsAnagram(char[] anagram, char[] test)
+    public static bool IsAnagram(char[] word1, char[] word2)
     {
-      if (anagram == test)
+      if (word1 == word2)
       {
         return true;
       }
